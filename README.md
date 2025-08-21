@@ -3,7 +3,7 @@
 A compact blue-team mini-project: map a phishing-to-ransomware attack across the **Cyber Kill Chain** and **MITRE ATT&CK**, then summarize practical detections in a one-page cheat-sheet.
 
 > 📄 One-pager (PDF): [docs/Phishing_Ransomware_Cheat_Sheet.pdf](docs/Phishing_Ransomware_Cheat_Sheet.pdf)  
-> 🖼️ One-pager (PNG): ![Detection Cheat-Sheet](docs/Phishing_Ransomware_Cheat_Sheet.png)
+> 🖼️ One-pager (PNG): ![Ransomeware Cheat-Sheet](docs/Phishing_Ransomware_Cheat_Sheet.png)
 
 ---
 
@@ -33,3 +33,5 @@ An attacker sends a phishing email with a malicious **“Invoice”** Word docum
 - **Weaponization (Pre-ATT&CK)** → **T1587.001** (Develop Capabilities: Malware)  
 - **Delivery** → **T1566.001** (Spearphishing Attachment) _(use **.002** if it’s a link instead)_  
 - **Execution** → **T1204.002** (User Execution: Malicious File), **T1059.001** (Power
+
+> 🖼️ Detection Cheet Sheet (PNG): ![Detection Cheat-Sheet](docs/Detection_Cheat_Sheet.png)
